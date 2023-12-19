@@ -16,7 +16,6 @@ public class SelectionSort {
             }
             swap1(arr, i, minIndex);
         }
-
     }
 
     public static void swap1(int[] arr, int a, int b) {
@@ -40,6 +39,5 @@ public class SelectionSort {
         {
             System.out.println(arr1[i]);
         }
-        
     }
 }
