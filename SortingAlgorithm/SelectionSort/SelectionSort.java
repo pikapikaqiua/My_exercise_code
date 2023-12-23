@@ -7,11 +7,11 @@ public class SelectionSort {
         if(arr == null || arr.length<2){
             return;
         }
-        //遍历0~N-1，每次把最小值放在i位置
-        for(int i = 0; i < arr.length-1; i++){
+        //遍历i~N-1，每次把最小值放在i位置
+        for(int i = 0; i < arr.length; i++){
             int minIndex = i;
-            //i~N-1寻找最小值
-            for(int j = i + 1; j < arr.length ; j++){             
+            //i~N-1寻找最小值的下标
+            for(int j = i + 1; j < arr.length; j++){             
                 minIndex = arr[j] < arr[minIndex] ? j : minIndex;
             }
             swap1(arr, i, minIndex);
@@ -33,9 +33,11 @@ public class SelectionSort {
 
     //计数器For test 
     public static void main(String[] args) {
-        int[] arr1 = {3,2,5,6,1,9,10,7,5,6,2,3,15};
+        int[] arr1 = {3,2,5,6,1,9,10,7,5,6,2,3,15,31};
+        System.out.println("数组长度:");
+        System.out.println(arr1.length);
         SelectionSortSelf(arr1);
-        for(int i = 0; i < arr1.length - 1; i++)
+        for(int i = 0; i < arr1.length; i++)
         {
             System.out.println(arr1[i]);
         }
