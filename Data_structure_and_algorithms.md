@@ -1,5 +1,7 @@
 # Data Structure and Algorithms
 
+git push origin master
+
 ## 一.base
 
 时间复杂度：操作数量的表达式。不要低阶项和高阶项系数。
