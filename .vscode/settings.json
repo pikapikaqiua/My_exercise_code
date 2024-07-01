@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "SortingAlgorithm/SelectionSort",
         "SortingAlgorithm/BubbleSort",
+        "SlidingWindow",
         "SortingAlgorithm"
     ]
 }
