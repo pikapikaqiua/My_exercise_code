@@ -103,3 +103,11 @@ void slidingWindow(string s) {
 可以使用方括号访问键对应的值 `map[key]`。需要注意的是，如果该 `key` 不存在，C++ 会自动创建这个 key，并把 `map[key]` 赋值为 0。所以代码中多次出现的 `map[key]++` 相当于 Java 的 `map.put(key, map.getOrDefault(key, 0) + 1)`。
 
 另外，Java 中的 Integer 和 String 这种包装类不能直接用 `==` 进行相等判断，而应该使用类的 `equals` 方法，这个语言特性坑了不少读者，在代码部分我会给出具体提示。
+
+
+
+1、什么时候应该扩大窗口？
+
+2、什么时候应该缩小窗口？
+
+3、什么时候应该更新答案？
