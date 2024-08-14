@@ -4,5 +4,8 @@
         "SortingAlgorithm/BubbleSort",
         "SlidingWindow",
         "SortingAlgorithm"
-    ]
+    ],
+    "screencastMode.keyboardOptions": {
+        "showCommandGroups": true
+    }
 }
